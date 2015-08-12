@@ -1,0 +1,22 @@
+{
+  "name": "split-text",
+  "version": "1.0.0",
+  "description": "Split text given a maximum width and a CanvasRenderingContext2D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elMauNunez/split-text.git"
+  },
+  "keywords": [
+    "canvas",
+    "text"
+  ],
+  "author": "Javier Jiménez <themjnunez@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/elMauNunez/split-text/issues"
+  },
+  "homepage": "https://github.com/elMauNunez/split-text#readme"
+}
