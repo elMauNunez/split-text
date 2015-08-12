@@ -4,7 +4,7 @@
   "description": "Split text given a maximum width and a CanvasRenderingContext2D",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "browserify test.js | browser-run -p 2222"
   },
   "repository": {
     "type": "git",
@@ -12,11 +12,18 @@
   },
   "keywords": [
     "canvas",
-    "text"
+    "text",
+    "split"
   ],
   "author": "Javier Jiménez <themjnunez@gmail.com>",
   "bugs": {
     "url": "https://github.com/elMauNunez/split-text/issues"
   },
-  "homepage": "https://github.com/elMauNunez/split-text#readme"
+  "homepage": "https://github.com/elMauNunez/split-text#readme",
+  "devDependencies": {
+    "browser-run": "^2.1.0",
+    "browserify": "^11.0.1",
+    "faucet": "0.0.1",
+    "tape": "^4.0.3"
+  }
 }
