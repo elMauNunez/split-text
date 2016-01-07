@@ -1,5 +1,5 @@
 {
-  "name": "split-text",
+  "name": "split-text-canvas",
   "version": "1.0.0",
   "description": "Split text given a maximum width and a CanvasRenderingContext2D",
   "main": "index.js",
